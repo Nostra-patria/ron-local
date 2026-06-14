@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="In April 2026, France, Germany, the Netherlands, and Denmark all moved in the same direction in the same month. The Great Return now has a geography, a timeline, and a set of contradictions that will determine whether it completes.">
+  <title>The April Stack — The Great Return</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- nav -->
+  <header class="site-header">
+    <div class="container container--wide">
+      <div class="site-title">
+        <a href="index.html">The Great Return</a>
+        <span class="site-title-sub">by Ron Local</span>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Articles</a>
+        <a href="about.html">About</a>
+        <a href="https://doi.org/10.5281/zenodo.18511984" target="_blank" rel="noopener">Paper &nearr;</a>
+      </nav>
+    </div>
+  </header><!-- /nav -->
+
+  <main>
+
+    <div class="article-header">
+      <div class="container">
+        <a class="back-link" href="index.html">&#8592; Articles</a>
+        <h1>The April Stack</h1>
+        <div class="article-byline">
+          <span>Ron Local</span>
+          <span class="byline-dot">&middot;</span>
+          <span>29 April 2026</span>
+          <span class="byline-dot">&middot;</span>
+          <span class="article-series-label">Update #13 &mdash; The Great Return</span>
+        </div>
+      </div>
+    </div>
+
+    <article class="article-body">
+      <div class="container">
+
+        <figure><img src="images/art23/hero.jpg" alt="An aerial view of a European city centre. In April 2026, France, Germany, the Netherlands, and Denmark all moved toward digital sovereignty in the same month, without coordination."></figure>
+
+        <p>April 13, 2026.</p>
+
+        <p>Two governments made the same announcement on the same day. France&#8217;s DINUM declared it would begin migrating its own agents from Windows to Linux. Germany&#8217;s federal administration validated the operational launch of the Deutschland-Stack, a sovereign technology platform for the public sector. Neither government knew the other was going to move that week. The convergence was not coordinated.</p>
+
+        <p>That is the more important detail.</p>
+
+        <p>When governments move in parallel without coordination, they are not following a leader. They are responding to the same pressure. The pressure is structural: US tariff unpredictability, the CLOUD Act&#8217;s reach over American cloud providers, geopolitical instability that makes foreign-controlled infrastructure a strategic liability, and a domestic software ecosystem that has matured enough to absorb the transition costs.</p>
+
+        <p>By April 28, the Netherlands had launched its sovereign government Git platform. Denmark&#8217;s engineers had published a map of which municipal email systems run on US-controlled servers, and the International Criminal Court&#8217;s migration away from Microsoft had been confirmed. The month did not produce a single large announcement. It produced a stack of them.</p>
+
+        <hr>
+
+        <h2>France: The Architecture of Departure</h2>
+
+        <p>The French move is the most technically detailed of the four.</p>
+
+        <p>DINUM&#8217;s interministerial seminar in April, attended by ANSSI, DGE, and DAE, announced a migration plan beginning with 234 of its own agents. The target operating system is not commercial Linux. DINUM built its own: two distributions on the NixOS base.</p>
+
+        <p><strong>S&#233;curix</strong> is the hardened administrative OS: ANSSI-certified, with FIDO2 hardware keys, Secure Boot and TPM2 integration, and kernel hardening targeting the adversary models that ANSSI documents. It is the OS for civil servants who handle sensitive data. <strong>Bureautix</strong> is the NixOS-derived desktop workstation for general office use. Together they replace Windows at both the security-critical and productivity tiers.</p>
+
+        <p>The ambition does not stop at the operating system. DINUM is also planning to replace Active Directory (Microsoft&#8217;s directory service, the authentication backbone of most public-sector IT infrastructure in Europe) with a decentralized alternative. This is the part of the announcement that produced the most skepticism in the French technology press. Active Directory is not just software. It is twenty years of accumulated organizational dependency: permissions, policies, provisioning, and identity. Replacing it is a multi-year infrastructure project, not a switch.</p>
+
+        <p>The ministerial mandate extends beyond DINUM&#8217;s own estate. By autumn 2026, every French ministry must formalize its own dependency reduction plan across seven axes: workstations, collaborative tools, antivirus, AI systems, databases, virtualization, and network equipment. The mandate comes with a political statement from Digital Minister David Amiel: <em>&#8220;L&#8217;&#201;tat ne peut plus se contenter de constater sa d&#233;pendance, il doit en sortir. Nous devons nous d&#233;sensibiliser des outils am&#233;ricains et reprendre le contr&#244;le de notre destin num&#233;rique.&#8221;</em></p>
+
+        <p>In parallel, the CNAM (the French health insurance body, covering 80,000 agents) is migrating to Tchap (the sovereign messaging platform), Visio-Agents, and FranceTransfert. And the Health Data Hub, which manages France&#8217;s health data and currently runs on Microsoft Azure, has confirmed its migration to Scaleway, the French cloud provider. The target window is end of 2026 to early 2027. Scaleway now holds HDS certification and SecNumCloud trajectory status. Seven years ago, when the Health Data Hub was established, Scaleway was rejected as a hosting option because it lacked PaaS capacity. It has built that capacity.</p>
+
+        <p>The critics are not silent. <em>cio-online</em> published the &#8220;village gaulois&#8221; critique: France is building national forks of open-source software that are incompatible with equivalent German and Dutch projects. GendBuntu (Gendarmerie), S&#233;curix, LiMux (Munich), OpenDesk, Le Suite: all are sovereign, none are interoperable. CIGREF, the network of large French corporations, supports DINUM&#8217;s EuroStack initiative but shares the fragmentation concern.</p>
+
+        <p>The critique is fair. It is also, for the moment, a second-order problem. The first-order problem is the dependency. The fragmentation can be addressed by standardization later. Fragmentation among European stacks is better than unified dependency on American ones.</p>
+
+        <figure><img src="images/art23/france.jpg" alt="Civil servants entering a French public administration building. DINUM begins its migration from Windows to NixOS-based S&eacute;curix, with 234 agents in the first wave."></figure>
+
+        <hr>
+
+        <h2>Germany: The Stack and the Merger</h2>
+
+        <p>Germany&#8217;s April 13 announcement was quieter in tone but broader in scope.</p>
+
+        <p>The Deutschland-Stack is not a single product. It is a validated technology catalogue for the federal public sector covering document formats, file storage, messaging, authentication infrastructure, and development tools. Its most significant immediate mandate: ODF (the Open Document Format) is now required for all public sector document exchange. OOXML, Microsoft&#8217;s format, is out.</p>
+
+        <p>Italo Vignoli of The Document Foundation, the organization that maintains LibreOffice, called this the right framing: <em>&#8220;L&#8217;ODF est le format de la souverainet&#233; num&#233;rique&#8230; Il a &#233;t&#233; con&#231;u pour un avenir o&#249; aucun fournisseur unique ne pourra contr&#244;ler le niveau documentaire de la civilisation.&#8221;</em> The document format is infrastructure. When a format is controlled by one vendor, that vendor controls the terms of access to every document written in it. ODF removes that control.</p>
+
+        <p>Germany&#8217;s sovereign AI move came eleven days later. On April 24, Cohere, the Canadian enterprise AI company, announced plans to acquire Aleph Alpha, the German AI firm that had previously positioned itself as Europe&#8217;s sovereign LLM champion before pivoting away from large-scale model development in 2024. The deal has not yet closed and remains subject to regulatory approval. According to Handelsblatt, a term sheet values the combined entity at approximately $20 billion.</p>
+
+        <p>The deal&#8217;s strategic anchor is the Schwarz Group, the parent company of Lidl and Kaufland, which is investing &#8364;500 million ($600 million) in Cohere&#8217;s upcoming Series E round and committing the combined entity to run on STACKIT, the sovereign cloud platform operated by Schwarz Digits. STACKIT is already certified for German public sector workloads. In practical terms, Schwarz Group is acquiring a major enterprise customer for its cloud business at the same moment it is funding the AI merger. The combined company targets energy, defence, finance, telecom, health, and public sector customers in Europe, building on Aleph Alpha&#8217;s existing commercial relationships with the German ministry for digital affairs and the Baden-W&#252;rttemberg regional government.</p>
+
+        <p>The deal did not happen in a vacuum. In February 2026, Canada and Germany signed a Sovereign Technology Alliance, a bilateral framework explicitly designed to &#8220;strengthen sovereign AI capacity and reduce strategic technology dependencies.&#8221; The Cohere&#8211;Aleph Alpha merger is the first major commercial expression of that alliance. Digital Minister Karsten Wildberger was direct about the reasoning: Europe needs a different path from the American one, built through partnership rather than platform dependency.</p>
+
+        <p>The sovereignty question attached to this deal is real and unresolved. Cohere is on a trajectory toward an IPO. When that happens, ownership passes to global shareholders with no particular allegiance to either Canada or Germany. CEO Aidan Gomez has said the merged entity will become &#8220;a Canadian-German company,&#8221; but a post-IPO ownership structure is difficult to hold to a nationality. European organisations considering this as a sovereignty alternative are betting on the cultural DNA of the entity rather than its ownership structure. That is a reasonable bet in 2026. Whether it holds in 2028 is the open question.</p>
+
+        <p>The honest bracket on Germany&#8217;s April: on April 28, Heise reported that German federal agencies are still &#8220;far from digital sovereignty&#8221; in practice, and that alternative software remains an exception rather than the rule. In Bavaria, the state finance ministry is actively seeking to renew its Microsoft contracts, drawing opposition from legislators who want a sovereignty-first approach instead. The Deutschland-Stack is a policy framework. It is not yet an operational reality for most of the German government.</p>
+
+        <p>This is the gap between declaration and deployment. France is in the same gap. So is everyone else.</p>
+
+        <figure><img src="images/art23/germany.jpg" alt="A large data centre facility. The Deutschland-Stack takes shape as the Schwarz Group commits &euro;500 million to the Cohere&ndash;Aleph Alpha merger and ties the combined entity to its STACKIT sovereign cloud platform."></figure>
+
+        <hr>
+
+        <h2>Netherlands: The Open Code Principle</h2>
+
+        <p>On April 28, the Dutch Ministry of Interior launched code.overheid.nl, a government Git platform built on Forgejo, a European open-source code hosting platform. The principle behind it is &#8220;<em>Open, tenzij</em>&#8221;: open by default, closed only when there is a documented reason for exception. Government code, government data, government software: publicly available, forkable, auditable.</p>
+
+        <p>The same week, the Open Cloud Alliantie, a coalition of seven Dutch IT companies including KPN, Centric, and Uniserver with combined annual revenue of &#8364;2.5 billion and over 13,000 IT professionals, presented its programme to parliament. The coalition&#8217;s goal: recapture 10 percent of government IT spending for Dutch providers over the next cycle. The stated motivation was not principally about cost. It was about resilience. The coalition&#8217;s statement: <em>&#8220;We moeten er niet aan denken dat door internationale spanningen systemen in de toekomst simpelweg worden uitgezet.&#8221;</em></p>
+
+        <p>&#8220;We don&#8217;t want to think about international tensions simply causing systems to be shut off.&#8221;</p>
+
+        <p>Capgemini Research published simultaneously: 67 percent of Dutch companies now have a reindustrialisation strategy that includes sourcing. Ninety percent cite geopolitical tensions as a driver of local sourcing decisions. Against the aggregate figure of &#8364;285 billion flowing from European organisations to US IT suppliers every year, the Dutch numbers are a data point in a larger redistribution that is still mostly theoretical. But the direction is set.</p>
+
+        <figure><img src="images/art23/netherlands.jpg" alt="A developer working at a standing desk in an Amsterdam canal-side office. The Netherlands launches code.overheid.nl on Forgejo, making government code open by default under the Open, tenzij principle."></figure>
+
+        <hr>
+
+        <h2>Denmark: The Case That Made It Concrete</h2>
+
+        <p>In the abstract, sovereignty risk is hard to visualise. In April, Denmark provided the concrete version.</p>
+
+        <p>On April 14, <em>Ingeni&#248;ren/Version2</em> reported that Ish&#248;j Kommune, a municipality of roughly 22,000 residents southwest of Copenhagen, had reduced its Microsoft 365 licence count so that only half of its employees still hold a full Microsoft licence. The other half (home helpers, SOSU workers, teachers, pedagogical assistants) have been migrated to open-source alternatives. The reasoning: light users do not need a full Microsoft suite. A different architecture costs less and creates less dependency.</p>
+
+        <p>On April 28, <em>Version2</em> published a map.</p>
+
+        <p>The map shows which Danish municipalities route their email through servers under American corporate control: Microsoft and Google infrastructure subject to US law, including the CLOUD Act. The investigation, conducted by security firm CSIS, found that deep technical dependencies on American tech are the norm, not the exception. The IT directors quoted in the article trust their vendors. The experts quoted do not think trust is the right framework. What happened at the International Criminal Court in The Hague is the reason why.</p>
+
+        <p>Last year, the ICC became subject to US sanctions targeting its Chief Prosecutor. Microsoft informed the court that the sanctions required it to cut off the Prosecutor&#8217;s access to Microsoft services. If the ICC did not itself suspend the Prosecutor&#8217;s account, Microsoft stated it would shut down email services for the entire organisation. The ICC suspended the account. A court that adjudicates war crimes was operating under a de facto veto held by a commercial software vendor responding to the instructions of one government.</p>
+
+        <p>The ICC is now migrating to OpenDesk, the European open-source office suite developed through a German-Dutch collaborative. The announcement is expected in the coming weeks.</p>
+
+        <p>The Digitaliseringsstyrelsen, Denmark&#8217;s Agency for Digitisation, has published &#8220;Digital suver&#230;nitet i den offentlige sektor,&#8221; an analysis of sovereignty in public-sector digital infrastructure drawing on experience from home and abroad. The joint public digitalisation strategy 2026&#8211;2029 is in place. Denmark is not moving as fast as France or Germany. But it is asking the right questions in public, which is usually the step before moving.</p>
+
+        <figure><img src="images/art23/denmark.jpg" alt="A Danish municipality building flying the national flag. Denmark maps which municipal email systems run under American corporate control, as the ICC case shows what happens when trust runs out."></figure>
+
+        <hr>
+
+        <h2>The Honest Map</h2>
+
+        <p>This update set out to cover all of Europe. It is honest about what it found.</p>
+
+        <p>The lead edge of the Great Return, in terms of active government decisions, announced programmes, and launched infrastructure, is a cluster of north-western European states. France, Germany, the Netherlands, and Denmark are moving. Switzerland is reducing its Microsoft dependency at the national level. The EU Parliament has published its own report on dangerous digital dependencies.</p>
+
+        <p>Poland is worth naming precisely because it is a counter-example. Poland signed substantial contracts with Palantir, the American company, for military and intelligence analytics in 2022 and 2023. Warsaw&#8217;s threat model is Russia, not America. From the Polish perspective, exposure to US law through the CLOUD Act is a tolerable risk compared to the alternative. American tech infrastructure is American security guarantees, and in Eastern Europe in 2026, that trade-off looks different than it does in Paris or Amsterdam. Poland&#8217;s digital choices are not a failure of sovereignty consciousness. They are a different strategic calculation made under different threat conditions.</p>
+
+        <p>Belgium is absent from this update for a specific institutional reason. Belgium hosts the European Commission, the Council, and the Parliament. Any Belgian federal decision about Microsoft creates an immediate precedent question for the EU bodies it hosts, and the Commission is not ready to answer that question. The result is a specific paralysis: Belgian IT policy cannot move visibly ahead of the institutional posture of the bodies it hosts, and those bodies are still forming that posture. It is not passivity. It is institutional entanglement.</p>
+
+        <p>Spain has a formal digital sovereignty programme (SEDIA, Red.es) but it is proceeding at the pace of compliance architecture rather than independence architecture. France is building tools. Spain is building reports. The output is the tell: DINUM publishes migration plans and operating system distributions; Spain publishes frameworks and roadmaps. Frameworks are not nothing. They are not S&#233;curix.</p>
+
+        <p>The Eastern flank requires a different frame entirely. Estonia has the most advanced digital government in Europe: X-Road, digital identity, e-residency, a working infrastructure that predates most European digitalisation discussions. But Estonia&#8217;s sovereignty concern is resilience and redundancy, not independence from American tech. The Baltic states, Poland, Romania: countries whose primary threat is physical and geopolitical, and whose digital strategy reflects that. They want more American presence, not less. The Great Return is a north-western European phenomenon because north-western Europe has the security latitude to trade American dependency for European alternatives. That latitude does not exist uniformly across the continent.</p>
+
+        <p>The absence of these countries from the active-migration category is not a reporting failure. It is a finding about the geography of pressure. The Great Return moves where the security dependence on America is low enough to be traded, and the domestic software ecosystem is mature enough to absorb the transition. Both conditions currently apply to France, Germany, the Netherlands, and Denmark. They do not yet apply uniformly elsewhere.</p>
+
+        <p>The demonstration effects from the north-western cluster are now available. Whether they propagate depends on political will in states where the conditions are approaching, and on the Commission eventually resolving the coordination problem it has so far declined to own.</p>
+
+        <hr>
+
+        <h2>The Tension That Will Determine Completion</h2>
+
+        <p>The April announcements share a structural problem.</p>
+
+        <p>France is building S&#233;curix. Germany and the Netherlands are building OpenDesk. France is building Le Suite for collaborative tools. Germany has its own track through the Deutschland-Stack. These are not the same projects. They are parallel national responses to the same problem, built on overlapping open-source foundations but without shared governance, shared specifications, or shared deployment infrastructure.</p>
+
+        <p>This matters because sovereignty at national scale is insufficient for the organisations that operate across Europe. The European Court of Human Rights, the Europol network, the pan-European rail coordination infrastructure, the institutions of the EU itself: none of these are well served by five national sovereign stacks that cannot interoperate. The fragmentation critique (dismissed as a second-order problem above) is actually a first-order problem for European institutions and cross-border organisations.</p>
+
+        <p>There is an answer. The DINUM press noted that Le Suite is in dialogue with Dutch and German counterparts. OpenDesk is building on open standards that Le Suite also uses. The path to interoperability exists technically. Whether it will be taken politically depends on whether the European Commission treats open-source sovereignty stacks as a coordination problem it owns, or leaves each member state to solve independently.</p>
+
+        <p>Wero, the European payment initiative launched as a sovereignty alternative to Visa and Mastercard, is still running on Amazon Web Services. If the EU cannot enforce sovereignty-consistent infrastructure choices on its own flagship sovereignty projects, it will struggle to coordinate the national stacks that are now forming independently.</p>
+
+        <p>The pressure on European AI companies to accept American partnerships is the same problem in a different register. In April, Elon Musk&#8217;s xAI reportedly explored a three-way collaboration with France&#8217;s Mistral AI and Cursor. Mistral declined, partly because an American affiliation would undermine the sovereignty positioning that has become the commercial foundation of its revenue. Mistral&#8217;s February 2026 acquisition of Koyeb, a French cloud infrastructure company, is the alternative strategy: vertical integration, owning the stack from model to deployment, as a structural defence against exactly this kind of dependency. If Mistral stays independent, it is because sovereignty is profitable. If that changes, the European AI landscape looks very different very quickly.</p>
+
+        <hr>
+
+        <h2>What the Scorecard Says</h2>
+
+        <p>Update #8 brought the prediction scorecard to 10 of 30, with the sovereignty-investment cascade moving from &#8220;forming&#8221; to &#8220;active.&#8221;</p>
+
+        <p>Two predictions close in April 2026.</p>
+
+        <p>The paper projected that European cloud providers serving regulated-sector workloads would reach technical parity with US hyperscalers for specific high-sensitivity use cases, driven by certification, proximity regulation, and the demonstrated willingness of US vendors to weaponise service access under legal or political pressure. The Health Data Hub migration from Azure to Scaleway is this prediction completing: a national health authority, with the most sensitive possible data profile, moving to a domestic cloud because the domestic cloud is now technically ready and the foreign cloud is now legally untenable.</p>
+
+        <p>The paper also projected a European AI consolidation event: a significant merger or acquisition creating a sovereign-positioned enterprise AI entity with government backing and European capital. The Cohere&#8211;Aleph Alpha merger, announced with the support of the German government, anchored by Schwarz Group infrastructure, and enabled by the Canada-Germany Sovereign Technology Alliance, is this prediction completing. The deal has not yet closed, which adds a note of contingency, but the direction of the prediction is confirmed.</p>
+
+        <p>Scorecard update: 12 of 30 predictions assessed. 12 in the right direction. The pace of completion has accelerated. The paper estimated that predictions 10&#8211;15 would close in the 2026&#8211;2027 window. April 2026 alone closed two of them.</p>
+
+        <p>The remaining 18 are mostly in the chapters that follow deployment: the managed service layer that sits between sovereign infrastructure and SME users, the skills gap that will slow real absorption, the sector-by-sector adoption curves for healthcare, legal, finance, and manufacturing, and the 2028&#8211;2030 political cycle that will determine whether the early movers institutionalise or stall.</p>
+
+        <p>The stalling risk is real. Bavaria is still negotiating a Microsoft renewal. German federal agencies are, by their own assessment, far from sovereign in practice. France has committed 234 agents to the migration and mandated that ministries write plans by autumn. Plans are not migrations.</p>
+
+        <p>But the direction is set. The month the direction became unambiguous was April 2026.</p>
+
+        <div class="article-footer-series">
+          <p><strong>The Great Return</strong> is an ongoing series tracking the structural shift to local-first AI in Europe.
+          <a href="the-great-return.html">Read the original paper &rarr;</a></p>
+        </div>
+
+      </div>
+
+      <div class="share-bar">
+        <div class="container">
+          <span class="share-label">Share</span>
+          <a class="share-btn share-btn--linkedin" href="#" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank','width=600,height=500');return false;" rel="noopener noreferrer">LinkedIn</a>
+          <a class="share-btn share-btn--x" href="#" onclick="window.open('https://x.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&amp;text='+encodeURIComponent(document.title),'_blank','width=600,height=400');return false;" rel="noopener noreferrer">X</a>
+          <button class="share-btn share-btn--copy" onclick="navigator.clipboard.writeText(window.location.href);this.textContent='\u2713';setTimeout(()=>this.textContent='Copy link',2000)">Copy link</button>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+<!-- footer -->
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <span>&copy; 2026 Ron Local</span>
+      <span><a href="about.html">About</a></span>
+      <span><a href="mailto:info@ronspoelstra.be">Contact</a></span>
+    </div>
+  </footer><!-- /footer -->
+
+</body>
+</html>
